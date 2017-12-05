@@ -9,11 +9,11 @@ Observations and improvement:
 3. images that have republicating objects/shade,
 4. images that contains a lot of noise in the background but seems to have ok amount of information on brain.
 
-Conclusion: we need to really clean up the dataset
+need to really clean up the dataset
 
 Technique issues to tackle with:
 
-1. quality of conversion: overall, the results are encouraging in the sense that you can see the parts that usually light up in T2 to light up in T1-T2 conversion. On a high level knowldge, the conversion is decent; however, closer inspection shows a few problems: first, details are not well preserved - which is partially due to noisy input, and partially due to the fact that we are extracting high level features in order to perform this kind of transformation. Secondly, some interpretations by computers are obviously wrong - for instance, the model would 'intepretate' a tumor as part of the brain structure, and after conversion, it looks like part of the brain - obviously no longer a human brain - instead of a tumor. 
+1. quality of conversion: overall, the results are encouraging in the sense that you can see the parts that usually light up in T2 to light up in T1-T2 conversion. On a high level knowldge, the conversion is decent; however, closer inspection shows a few problems: first, details are not well preserved - which is partially due to noisy input, and partially due to the fact that we are extracting high level features in order to perform this kind of transformation. Secondly, some interpretations by computers are obviously wrong - for instance, the model would 'intepretate' a tumor as part of the brain structure, and after conversion, it looks like part of the brain instead of a tumor. 
 
 2. Spatial consistency - this needs to be updated after i run some more data through the model. I am assuming that spatially it is not very consistent. We will need to come up with a constraint in this axis.
 
