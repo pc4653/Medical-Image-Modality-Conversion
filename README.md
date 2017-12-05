@@ -7,6 +7,14 @@ T1 images
 ![Alt text](20050_x_AB.png?raw=true "Optional Title")
 From T1 to T2
 
+![Alt text](valid_x_B.png?raw=true "Optional Title")
+T2 images
+
+
+![Alt text](20050_x_BA.png?raw=true "Optional Title")
+From T2 to T1
+
+
 Observations and improvement:
 
 1. there are still significant amount of noisy images in the dataset, which led to some of the inference to be noisy. Noisy images include:
