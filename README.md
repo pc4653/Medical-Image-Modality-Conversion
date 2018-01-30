@@ -15,3 +15,30 @@ Some thoughts on segmentation:
   
   
   ![alt text](epoch061_fake_B.png)![alt text](epoch061_real_B.png)![alt text](epoch061_real_A.png)!
+
+
+
+Modality conversion:
+
+Some thoughts: A lot better results in turns of resolutions after skip connections are added. However, the strucutre is still changing sometimes. The paper semi-supervised FusedGAN for Conditional Image Generation is probably a better structure, in turns of seperating structure (brain anatomy) with style (modality)
+
+
+
+From Flair to T2 (these two modalities are relatively similiar, would see better contrast for anthoer pairing)
+
+![alt text](epoch027_real_A.png)![alt text](epoch027_fake_B.png)
+
+  
+![alt text](epoch024_real_A.png)![alt text](epoch024_fake_B.png)
+
+
+From T2 to Flair
+
+![alt text](epoch023_real_B.png)![alt text](epoch023_fake_A.png)    
+
+
+![alt text](epoch026_real_B.png)![alt text](epoch026_fake_A.png)
+
+
+
+
