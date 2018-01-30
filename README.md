@@ -3,3 +3,8 @@ Explore the possibility of converting medical images between modality while pres
 
 1/30/18:
 After adding skip connections and Unet, brain segmentation and modality conversion results were a lot better.
+Some thoughts on segmentation:
+  1. these images are generated based on one scan, going to retool the dataset to input 4 scans.
+  2. perhaps it's better to break up the segmentation into stages, for instance first detect and localize the tumor, then do finer segmentation; there are instances where tumor location was not correctly predicted to begin with. 
+  3. a 3D base method prob helps, although i'd like to say the segmentations were originally done on a per image basis.
+  ![alt text](epoch054_fake_B.png)![alt text](epoch054_real_A.png)![alt text](epoch054_real_B.png)!
