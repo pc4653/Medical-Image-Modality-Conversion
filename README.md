@@ -20,7 +20,7 @@ Some thoughts on segmentation:
 
 Modality conversion:
 
-Some thoughts: A lot better results in turns of resolutions after skip connections are added. However, the strucutre is still changing sometimes. The paper semi-supervised FusedGAN for Conditional Image Generation is probably a better structure, in turns of seperating structure (brain anatomy) with style (modality)
+Some thoughts: A lot better results in turns of resolutions after skip connections are added. However, the strucutre is still changing sometimes. The paper semi-supervised FusedGAN for Conditional Image Generation proposed a better structure, in turns of seperating structure (brain anatomy) with style (modality), may be worth trying.
 
 
 
